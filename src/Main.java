@@ -42,6 +42,6 @@ public class Main {
                     ciclo = 1;
             }
 
-        }while (ciclo == 1);
+        }while (ciclo != 1);
     }
 }
