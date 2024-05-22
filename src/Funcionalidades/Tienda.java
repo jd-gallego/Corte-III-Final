@@ -21,4 +21,24 @@ public class Tienda {
 
         }
     }
+
+    public void mostrarInventario() {
+        if (inventario.isEmpty()) {
+            System.out.println("El inventario está vacío.");
+        } else {
+            System.out.println("Inventario de Productos:");
+            for (Producto producto : inventario.values()) {
+                System.out.println(producto);
+            }
+        }
+    }
+
+    public void eliminarProducto(String nombreProducto) {
+        if (inventario.containsKey(nombreProducto)) {
+            inventario.remove(nombreProducto);
+            System.out.println("Producto eliminado exitosamente.");
+        } else {
+            System.out.println("Producto no encontrado en el inventario.");
+        }
+    }
 }

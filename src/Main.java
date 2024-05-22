@@ -16,8 +16,8 @@ public class Main {
 
         do {
 
-            System.out.println("Sistema de Gestión de Inventario para una Tienda de Electrónica");
-            System.out.println("Escoja el numero asignado a la opcion si eres...");
+            System.out.println("\nSistema de Gestión de Inventario para una Tienda de Electrónica");
+            System.out.println("\nEscoja el numero asignado a la opcion si eres...");
             System.out.println("1. Administrador");
             System.out.println("2. Vendedor");
             System.out.println("3. Gerente");
